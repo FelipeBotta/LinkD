@@ -13,6 +13,7 @@ a{
 div.logo{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 div.nome{
@@ -25,6 +26,7 @@ div.subnome{
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: lighter;
 }
 
@@ -52,7 +54,7 @@ div.what{
     padding: 8px;
     width: 400px;
     height: 75px;
-    margin: auto;
+    margin: 10px auto;
     border: 2px solid black;
     border-radius: 8px;
 }
@@ -70,7 +72,7 @@ div.tele{
     padding: 8px;
     width: 400px;
     height: 75px;
-    margin: auto;
+    margin: 10px auto;
     border: 2px solid black;
     border-radius: 8px;
 }
@@ -83,9 +85,7 @@ div.tele > h2{
 }
 
 div.foot{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 60px;
+    display: none;
 }
 
 footer{

@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+a{
+    text-decoration: none;
+}
+
 div.logo{
     display: flex;
     justify-content: center;
@@ -9,15 +13,84 @@ div.logo{
 div.nome{
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
 }
 
 div.subnome{
     display: flex;
     justify-content: center;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 
-div.lista{
-    display: flex;
-    justify-content: center;
+
+div.insta{
+    display: block;
+    background-color: rgba(66, 66, 66, 0.658);
+    margin-left: 220px;
+    width: 900px;
+    height: 75px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
     
+}
+
+
+div.insta > h2{
+    display: block;
+    color: white;
+    margin-top: -55px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.what{
+    display: block;
+    background-color: rgba(66, 66, 66, 0.658);
+    margin-top: 15px;
+    margin-left: 220px;
+    width: 900px;
+    height: 75px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+div.what > h2{
+    display: block;
+    color: white;
+    margin-top: -55px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.tele{
+    display: block;
+    background-color: rgba(66, 66, 66, 0.658);
+    margin-top: 15px;
+    margin-left: 220px;
+    width: 900px;
+    height: 75px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+div.tele > h2 {
+    display: block;
+    color: white;
+    margin-top: -55px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer.foot{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
 }

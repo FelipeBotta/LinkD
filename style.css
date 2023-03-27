@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+div.logo{
+    display: flex;
+    justify-content: center;
+
+}
+
+div.nome{
+    display: flex;
+    justify-content: center;
+}
+
+div.subnome{
+    display: flex;
+    justify-content: center;
+}
+
+div.lista{
+    display: flex;
+    justify-content: center;
+    
+}
